@@ -12,3 +12,6 @@ all:
 
 run:
 	./$(BUILD_DIR)/$(OBJ_NAME)
+
+clean:
+	rm -rf $(BUILD_DIR)/*
